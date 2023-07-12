@@ -1,0 +1,42 @@
+body{
+    background-image:url("images/fundo.png");
+    background: #d2d2c1; 
+    font: 16px Arial, Helvetica, sans-serif;
+}
+
+/* Lembrando que # é usado para "declarar" um id*/
+#principal{
+    width: 900px
+}
+
+#menu{
+    background: #c5c5b2;
+    padding: 18px; /*padding colca espaços entre as palavras, como margens invisíveis*/
+    color:#4b566a;
+}
+
+#conteudo{
+    background: #e8e8d9;
+    padding: 18px;
+    text-align: justify;
+}
+
+#shooter{
+    text-align: center;
+}
+
+a{ /* usa-se a letra a para formatar TODOS os links do site */
+    color: #4b566a;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px
+}
+
+h1{
+    color: #828871;
+    font-size: 1.2em;
+}
+
+.img_campanha{
+    border:10px solid #c3c3ae
+}
